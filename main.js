@@ -33,6 +33,9 @@ function darkMode(){
 }
 
 document.addEventListener("DOMContentLoaded", function(){
+    if(document.body.classList.contains('latex-dark-auto')){
+        localStorage.setItem('dark-mode-enabled' , true);
+    }
     if(JSON.parse(localStorage.getItem('dark-mode-enabled')) === true){
         darkMode();
     }
