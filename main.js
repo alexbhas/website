@@ -34,9 +34,10 @@ function darkMode(){
 
 document.addEventListener("DOMContentLoaded", function(){
    
+    //Maybe change this to an event listener
     if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
         localStorage.setItem('dark-mode-enabled' , true);
-        document.getElementById("dark-mode-toggle").disabled = true;
+        document.getElementById("dark-mode-toggle").style.display = "none";
     }
 
     if(JSON.parse(localStorage.getItem('dark-mode-enabled')) === true){
