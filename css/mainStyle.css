@@ -1,3 +1,39 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
+body{
+  font-family: 'Open Sans';
+}
+
 #dark-mode-toggle {
     display: block; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -37,4 +73,20 @@
 
   .bold{
     font-weight: bold;
+    margin-left: 16px;
+  }
+  .boldNoIndent{
+    font-weight: bold;
+    
+  }
+
+  h3{
+    margin-left: 8px;
+  }
+  p{
+    margin-left: 16px;
+  }
+  
+  ul{
+    margin-left: 8px;
   }

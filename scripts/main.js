@@ -11,13 +11,13 @@ document.querySelector("#dark-mode-toggle").addEventListener('click', () => {
     document.body.classList.toggle("latex-dark");
     let button = document.getElementById("dark-mode-toggle");
 
-    if(button.innerHTML == '<img alt="Moon" src="moon.png">'){
-        button.innerHTML = '<img alt="Sun" src="sun.png">'
+    if(button.innerHTML == '<img alt="Moon" src="images/moon.png">'){
+        button.innerHTML = '<img alt="Sun" src="images/sun.png">'
         button.name="Disable Dark Mode"
         
         //Set the CSS of dark mode text to be whiter
     } else {
-        button.innerHTML = '<img alt="Moon" src="moon.png">'
+        button.innerHTML = '<img alt="Moon" src="images/moon.png">'
         button.name="Enable Dark Mode"
     }
     
@@ -27,7 +27,7 @@ function darkMode(){
 
     document.body.classList.toggle("latex-dark");
     let button = document.getElementById("dark-mode-toggle");
-    button.innerHTML = '<img alt="Sun" src="sun.png">'
+    button.innerHTML = '<img alt="Sun" src="images/sun.png">'
     button.name="Disable Dark Mode"
     
 }
