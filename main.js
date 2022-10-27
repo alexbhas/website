@@ -33,9 +33,12 @@ function darkMode(){
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    if(document.body.classList.contains('latex-dark-auto')){
+   
+    if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
         localStorage.setItem('dark-mode-enabled' , true);
+        document.getElementById("dark-mode-toggle").disabled = true;
     }
+
     if(JSON.parse(localStorage.getItem('dark-mode-enabled')) === true){
         darkMode();
     }
