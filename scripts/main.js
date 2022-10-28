@@ -1,6 +1,7 @@
-document.querySelector("#dark-mode-toggle").addEventListener('click', () => {
 
-    
+//Toggle dark mode
+document.querySelector("#dark-mode-toggle").addEventListener('click', () => {
+ 
     if(JSON.parse(localStorage.getItem('dark-mode-enabled')) === true){
         localStorage.setItem('dark-mode-enabled', false);
     } else {
@@ -15,7 +16,6 @@ document.querySelector("#dark-mode-toggle").addEventListener('click', () => {
         button.innerHTML = '<img alt="Sun" src="images/sun.png">'
         button.name="Disable Dark Mode"
         
-        //Set the CSS of dark mode text to be whiter
     } else {
         button.innerHTML = '<img alt="Moon" src="images/moon.png">'
         button.name="Enable Dark Mode"
