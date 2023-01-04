@@ -6,11 +6,21 @@ export const site: SiteConfig = {
   title: 'Alexander Bhasin',
   subtitle: '',
   lang: 'en-US',
-  description: '',
+  description: 'Alexander Bhasin\'s personal website',
   author: {
     name: 'Alexander Bhasin',
-    status: '😄',
-    bio: 'Software Developer'
+    status: '📘',
+    bio: 'Soon to be graduating software developer from Ottawa, Canada',
+    metadata: [
+      {
+        text: 'GitHub',
+        link: 'https://github.com/alexbhas'
+      },
+      {
+        text: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/alexander-bhasin-4a9944171/'
+      },
+    ]
   },
   themeColor: '#3D4451'
 }

@@ -63,8 +63,6 @@
           <Nav {path} {title} {pin} {scrollY} nav={headerConfig.nav} />
         {/if}
         <a href="/" data-sveltekit-prefetch class="btn btn-ghost normal-case text-lg">{site.title}</a>
-      </div>
-      <div class="navbar-end">
         {#if headerConfig.search}
           <button aria-label="search" on:click={() => (search = !search)} tabindex="0" class="btn btn-square btn-ghost">
             <span class="i-heroicons-outline-search" />

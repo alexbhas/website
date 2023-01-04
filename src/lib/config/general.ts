@@ -2,53 +2,30 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, DateConfig, FeedConfig } fr
 
 export const theme: ThemeConfig = [
   {
-    name: 'cmyk',
-    text: '🖨 Light'
+    name: 'light',
+    text: 'Marble'
+  },
+  {
+    name: 'winter',
+    text: 'Frosty'
   },
   {
     name: 'dracula',
-    text: '🧛 Dark'
-  },
-  {
-    name: 'valentine',
-    text: '🌸 Valentine'
-  },
-  {
-    name: 'aqua',
-    text: '💦 Aqua'
-  },
-  {
-    name: 'synthwave',
-    text: '🌃 Synthwave'
+    text: 'Moonlight'
   },
   {
     name: 'night',
-    text: '🌃 Night'
+    text: 'Sapphire'
   },
   {
-    name: 'lofi',
-    text: '🎶 Lo-Fi'
+    name: 'valentine',
+    text: 'Bubblegum'
   },
   {
-    name: 'lemonade',
-    text: '🍋 Lemonade'
-  },
-  {
-    name: 'cupcake',
-    text: '🧁 Cupcake'
-  },
-  {
-    name: 'garden',
-    text: '🏡 Garden'
-  },
-  {
-    name: 'retro',
-    text: '🌇 Retro'
-  },
-  {
-    name: 'black',
-    text: '🖤 Black'
+    name: 'aqua',
+    text: 'Seagem'
   }
+
 ]
 
 export const head: HeadConfig = {}
