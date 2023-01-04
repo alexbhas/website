@@ -37,8 +37,8 @@ export const header: HeaderConfig = {
       link: '/about'
     },
     {
-      text: 'Resume',
-      link: '/resume'
+      text: 'Experience',
+      link: '/experience'
     },
     {
       text: 'Download CV',

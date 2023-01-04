@@ -1,5 +1,5 @@
 ---
-title: Resume
+title: Experience
 flags:
 - unlisted
 ---
@@ -17,7 +17,7 @@ flags:
 
 ---
 
-### Experience
+### Work Experience
 
 [Bank of Canada](https://www.bankofcanada.ca/)
 
