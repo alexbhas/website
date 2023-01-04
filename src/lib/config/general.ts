@@ -41,10 +41,6 @@ export const header: HeaderConfig = {
       link: '/resume'
     },
     {
-      text: 'Projects',
-      link: '/projects'
-    },
-    {
       text: 'Download CV',
       link: 'https://drive.google.com/file/d/1aAIyZ7x7LqDmOpJQYi5FP-4fyB_xa1v1/view?usp=sharing'
     }
