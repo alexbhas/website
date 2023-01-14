@@ -22,8 +22,8 @@ export const theme: ThemeConfig = [
     text: 'Bubblegum'
   },
   {
-    name: 'aqua',
-    text: 'Seagem'
+    name: 'synthwave',
+    text: 'Electric'
   }
 
 ]
