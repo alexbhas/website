@@ -32,8 +32,6 @@
   }
 
   $: if (scrollY) {
-    pin = lastY - scrollY > 0 || scrollY === 0 ? true : false
-    lastY = scrollY
     if (browser)
       percent =
         Math.round((scrollY / (document.documentElement.scrollHeight - document.documentElement.clientHeight)) * 10000) / 100

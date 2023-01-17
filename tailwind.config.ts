@@ -12,22 +12,22 @@ export default {
     themes: [
       {
         light: {
-          primary: '#A209F4',
+          primary: '#F10E72',
           secondary: '#E810F1',
           accent: '#EA0C68',
           neutral: '#2A122B',
-          'base-100': '#EFD1F4',
+          'base-100': '#E9CFF3',
           '--rounded-box': '0.5rem',
           '--rounded-btn': '0.5rem'
         }
       },
       {
         dark: {
-          primary: '#CBB3F3',
-          secondary: '#DC77F4',
-          accent: '#F11281',
+          primary: '#F10E72',
+          secondary: '#E810F1',
+          accent: '#EA0C68',
           neutral: '#2A122B',
-          'base-100': '#38044E',
+          'base-100': '#202020',
           '--rounded-box': '0.5rem',
           '--rounded-btn': '0.5rem'
         }
