@@ -9,9 +9,13 @@ export const site: SiteConfig = {
   description: 'Alexander Bhasin\'s personal website',
   author: {
     name: 'Alexander Bhasin',
-    status: '📘',
+    status: '❄',
     bio: 'Soon to be graduating software developer from Ottawa, Canada',
     metadata: [
+      {
+        text: 'CV',
+        link: 'assets/Alexander_Bhasin_Resume.pdf'
+      },
       {
         text: 'GitHub',
         link: 'https://github.com/alexbhas'

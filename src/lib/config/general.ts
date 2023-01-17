@@ -3,29 +3,12 @@ import type { ThemeConfig, HeadConfig, HeaderConfig, DateConfig, FeedConfig } fr
 export const theme: ThemeConfig = [
   {
     name: 'light',
-    text: 'Marble'
+    text: 'Lavender'
   },
   {
-    name: 'winter',
-    text: 'Frosty'
-  },
-  {
-    name: 'dracula',
-    text: 'Moonlight'
-  },
-  {
-    name: 'night',
-    text: 'Sapphire'
-  },
-  {
-    name: 'valentine',
-    text: 'Bubblegum'
-  },
-  {
-    name: 'synthwave',
-    text: 'Electric'
+    name: 'dark',
+    text: 'Dusk'
   }
-
 ]
 
 export const head: HeadConfig = {}
@@ -43,10 +26,6 @@ export const header: HeaderConfig = {
     {
       text: 'Projects',
       link: '/projects'
-    },
-    {
-      text: 'Download CV',
-      link: 'https://drive.google.com/file/d/1aAIyZ7x7LqDmOpJQYi5FP-4fyB_xa1v1/view?usp=sharing'
     }
   ]
 }
