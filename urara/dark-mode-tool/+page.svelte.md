@@ -3,7 +3,7 @@ title: In Depth | Dark Mode Colours Tool
 created: 2023-01-02
 updated: 2023-01-07
 image: /dark-mode-tool/dark-mode.webp
-tags: ['Projects']
+tags: ['Projects', 'Accessibility']
 ---
 ---
 I came up with the idea for this web application while designing a website. I wanted to implement a dark mode theme to the website that only changed the background colour and not the foreground colours. The problem with this though, is that the foreground colour would have to pass the WCAG contrast check for both background colours. As I tried different colours and found none that would work, I started to look for a tool that could provide me with the colours. I could not find anything that useful, so I decided to make the tool myself. 
