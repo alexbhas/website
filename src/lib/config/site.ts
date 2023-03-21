@@ -14,7 +14,7 @@ export const site: SiteConfig = {
     metadata: [
       {
         text: 'CV',
-        link: 'assets/Alexander_Bhasin_Resume.pdf'
+        link: 'assets/AlexanderBhasinResume.pdf'
       },
       {
         text: 'GitHub',
