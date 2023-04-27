@@ -30,8 +30,6 @@ export const header: HeaderConfig = {
   ]
 }
 
-
-
 export const date: DateConfig = {
   locales: 'en-US',
   options: {

@@ -1,8 +1,9 @@
 /// <reference types="@sveltejs/kit" />
 
-import { FFFBase, FFFExtra } from 'fff-flavored-frontmatter'
+import type { FFFBase, FFFMention } from 'fff-flavored-frontmatter'
 
 interface ImportMetaEnv extends Readonly<Record<string, string>> {
+  readonly URARA_SITE_PROTOCOL?: 'http://' | 'https://'
   readonly URARA_SITE_DOMAIN?: string
 }
 
@@ -14,8 +15,8 @@ interface ImportMeta {
 declare global {
   namespace Urara {
     namespace Post {
-      type Frontmatter = Omit<FFFBase, 'created' | 'updated' | 'image' | 'audio' | 'video' | 'flags'> &
-        Pick<FFFExtra, 'in_reply_to'> & {
+      type Frontmatter = Omit<FFFBase, 'flags'> &
+        Pick<FFFMention, 'in_reply_to'> & {
           /**
            * post type.
            * @remarks auto-generated
@@ -51,12 +52,16 @@ declare global {
            */
           updated: string
           /**
+           * the published date of the post.
+           */
+          published?: string
+          /**
            * the featured image for article, or image for "photo" / "multi-photo" posts.
            * @remarks currently only supports string
            */
           image?: string
           /** enable some advanced features.
-           * @property hidden - deprecated, transfer to ``
+           * @property hidden - deprecated, transfer to `unlisted`
            * @property unlisted - hide this post from the homepage and feed.
            * @property bridgy-fed - add a link to Bridgy Fed in the post. https://fed.brid.gy/
            * @property bridgy-{target} - add a link to Bridgy in the post. https://brid.gy/publish/{target}

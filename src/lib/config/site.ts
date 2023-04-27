@@ -8,6 +8,7 @@ export const site: SiteConfig = {
   lang: 'en-US',
   description: 'Alexander Bhasin\'s personal website',
   author: {
+    avatar: '/assets/maskable@512.png',
     name: 'Alexander Bhasin',
     status: '❄',
     bio: 'Soon to be graduating software developer from Ottawa, Canada',

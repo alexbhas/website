@@ -60,16 +60,20 @@
         {#if headerConfig.nav}
           <Nav {path} {title} {pin} {scrollY} nav={headerConfig.nav} />
         {/if}
-        <a href="/" data-sveltekit-prefetch class="btn btn-ghost normal-case text-lg">{site.title}</a>
+        <a href="/" class="btn btn-ghost normal-case text-lg">{site.title}</a>
         {#if headerConfig.search}
           <button aria-label="search" on:click={() => (search = !search)} tabindex="0" class="btn btn-square btn-ghost">
             <span class="i-heroicons-outline-search" />
           </button>
         {/if}
         <div id="change-theme" class="dropdown dropdown-end">
+          <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+          <!-- reference: https://github.com/saadeghi/daisyui/issues/1285 -->
           <div tabindex="0" class="btn btn-square btn-ghost">
             <span class="i-heroicons-outline-color-swatch" />
           </div>
+          <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+          <!-- reference: https://github.com/saadeghi/daisyui/issues/1285 -->
           <ul
             tabindex="0"
             class="flex flex-nowrap shadow-2xl menu dropdown-content bg-base-100 text-base-content rounded-box w-52 p-2 gap-2 overflow-y-auto max-h-[21.5rem]"
@@ -87,11 +91,10 @@
                 <p class="flex-1 text-left text-base-content group-hover:text-primary-content transition-color">
                   {text ?? name}
                 </p>
-                <div class="flex-none m-auto flex gap-1">
-                  <div class="bg-primary w-2 h-4 rounded" />
-                  <div class="bg-secondary w-2 h-4 rounded" />
-                  <div class="bg-accent w-2 h-4 rounded" />
-                  <div class="bg-neutral w-2 h-4 rounded" />
+                <div class="grid grid-cols-4 gap-0.5 m-auto">
+                  {#each ['bg-primary', 'bg-secondary', 'bg-accent', 'bg-neutral'] as bg}
+                    <div class={`${bg} w-1 h-4 rounded-btn`} />
+                  {/each}
                 </div>
               </button>
             {/each}
