@@ -1,7 +1,7 @@
 ---
 title: Experience
 created: 2023-01-02
-updated: 2023-01-07
+updated: 2023-04-27
 flags:
 - unlisted
 ---
@@ -13,8 +13,8 @@ flags:
 <dl>
     <dd>Bachelor of Computer Science, Honours</dd>
     <dd>Computer and Internet Security Stream</dd>
+    <dd>High Distinction, CGPA 11.40 / 12.00</dd>
     <dd>September 2018 - April 2023</dd>
-    <dd>CGPA 11.42 / 12.00</dd>
 </dl>
 
 [Carleton University](https://carleton.ca/)
