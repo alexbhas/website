@@ -11,7 +11,7 @@ export const site: SiteConfig = {
     avatar: '/assets/maskable@512.png',
     name: 'Alexander Bhasin',
     status: '❄',
-    bio: 'Soon to be graduating software developer from Ottawa, Canada',
+    bio: 'Recently graduated software developer from Ottawa, Canada',
     metadata: [
       {
         text: 'CV',
@@ -23,7 +23,7 @@ export const site: SiteConfig = {
       },
       {
         text: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/alexander-bhasin-4a9944171/'
+        link: 'https://www.linkedin.com/in/alexander-bhasin/'
       },
     ]
   },
