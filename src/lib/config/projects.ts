@@ -10,6 +10,37 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        id: 'moodymix',
+        name: 'MoodyMix',
+        tags: ['Svelte', 'Flask', 'Python'],
+        description:
+            "A Svelte/Flask web application that allows the user to get song recommendations based off emotions.",
+        feature: 'Svelte',
+        img: '/assets/moody.webp',
+        link: 'https://github.com/alexbhas/moodymix'
+    },
+
+    {
+        id: 'larry-david-talkabot',
+        name: 'Larry David Talkabot',
+        tags: ['Python', 'AI'],
+        description:
+            "A Python project that generates audio files of Larry David’s voice. Makes use of GPT for generating text as well as TorToiSe TTS for the audio.",
+        feature: 'Python',
+        img: '/assets/larrydavid.webp',
+        link: 'https://github.com/alexbhas/larrydavid-talkabot'
+    },
+    {
+        id: 'mp3-to-wav-tortoise',
+        name: 'MP3 to WAV TorToiSe',
+        tags: ['Python'],
+        description:
+            "A Python application that batch converts MP3 files into the required WAV format for TorToiSe TTS.",
+        feature: 'Python',
+        img: '/assets/mp3-to-wav.webp',
+        link: 'https://github.com/alexbhas/mp3towav-tortoise'
+    },
+    {
         id: 'dark-mode-colors-tool',
         name: 'Dark Mode Colours Tool',
         tags: ['JavaScript', 'HTML/CSS', 'Accessibility'],
@@ -18,6 +49,16 @@ export const projects: Project[] = [
         feature: 'JavaScript',
         img: '/dark-mode-tool/dark-mode.webp',
         link: 'https://github.com/alexbhas/dark-mode-colours-tool'
+    },
+    {
+        id: 'rfid-binary-tree-collision-avoidance',
+        name: 'RFID Binary Tree Collision Avoidance',
+        tags: ['Python'],
+        description:
+            "A Python simulation that re-creates the work of an RFID anti-collision algorithms research paper.",
+        feature: 'Python',
+        img: '/assets/rfid.webp',
+        link: 'https://github.com/alexbhas/RFID-Binary-Tree-Collision-Avoidance'
     },
     {
         id: 'accessible-tts',
@@ -40,16 +81,6 @@ export const projects: Project[] = [
         link: 'https://github.com/alexbhas/pyhouse'
     },
     {
-        id: 'larry-david-talkabot',
-        name: 'Larry David Talkabot',
-        tags: ['Python', 'AI'],
-        description:
-            "A Python project that generates audio files of Larry David’s voice. Makes use of GPT for generating text as well as TorToiSe TTS for the audio.",
-        feature: 'Python',
-        img: '/assets/larrydavid.webp',
-        link: 'https://github.com/alexbhas/larrydavid-talkabot'
-    },
-    {
         id: 'concurrent-fitness-centre',
         name: 'Concurrent Fitness Centre',
         tags: ['C', 'JavaScript', 'HTML/CSS', 'QNX Neutrino', 'Embedded Software'],
@@ -70,16 +101,6 @@ export const projects: Project[] = [
         link: 'https://mindalive.com/products/oasis-pro'
     },
     {
-        id: 'rfid-binary-tree-collision-avoidance',
-        name: 'RFID Binary Tree Collision Avoidance',
-        tags: ['Python'],
-        description:
-            "A Python simulation that re-creates the work of an RFID anti-collision algorithms research paper.",
-        feature: 'Python',
-        img: '/assets/rfid.webp',
-        link: 'https://github.com/alexbhas/RFID-Binary-Tree-Collision-Avoidance'
-    },
-    {
         id: 'game-of-life',
         name: 'Game of Life',
         tags: ['JavaScript', 'HTML/CSS'],
@@ -88,15 +109,5 @@ export const projects: Project[] = [
         feature: 'JavaScript',
         img: '/life/game-of-life.webp',
         link: 'https://github.com/alexbhas/game-of-life'
-    },
-    {
-        id: 'mp3-to-wav-tortoise',
-        name: 'MP3 to WAV TorToiSe',
-        tags: ['Python'],
-        description:
-            "A Python application that batch converts MP3 files into the required WAV format for TorToiSe TTS.",
-        feature: 'Python',
-        img: '/assets/mp3-to-wav.webp',
-        link: 'https://github.com/alexbhas/mp3towav-tortoise'
     }
 ]

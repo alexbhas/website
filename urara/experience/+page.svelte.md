@@ -13,7 +13,7 @@ flags:
 <dl>
     <dd>Bachelor of Computer Science, Honours</dd>
     <dd>Computer and Internet Security Stream</dd>
-    <dd>High Distinction, CGPA 11.40 / 12.00</dd>
+    <dd>High Distinction, CGPA 11.43 / 12.00</dd>
     <dd>September 2018 - April 2023</dd>
 </dl>
 

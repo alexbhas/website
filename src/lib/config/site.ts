@@ -10,7 +10,7 @@ export const site: SiteConfig = {
   author: {
     avatar: '/assets/maskable@512.png',
     name: 'Alexander Bhasin',
-    status: '❄',
+    status: '🎓',
     bio: 'Recently graduated software developer from Ottawa, Canada',
     metadata: [
       {
