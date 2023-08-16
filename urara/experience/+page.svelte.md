@@ -23,6 +23,36 @@ flags:
 
 ### Work Experience
 
+#### Sitecore
+
+<dl>
+    <dd>Associate Cloud Operations Engineer</dd>
+    <dd>July 2023 - Present</dd>
+</dl>
+
+As a member of the Cloud Operations team at Sitecore, I assisted with the deployment and management of web applications, diagnosed and mitigated incidents, and engaged with cross-functional teams to provide support to customers worldwide.
+
+`Azure` `Docker` `Kubernetes` `OpsGenie` `SearchStax` `Grafana` `ServiceNow` `Prometheus`
+
+[Sitecore](https://www.sitecore.com/)
+
+---
+
+#### Daitoku
+
+<dl>
+    <dd>Full Stack Developer</dd>
+    <dd>January 2023 - Present</dd>
+</dl>
+
+At Daitoku, I aided in the development of comphrensive web applications ranging from content management systems (CMS) to corporate websites. I directly interfaced with clients to tailor solutions, and ensured that all applications were designed with accessibility in mind.
+
+`Svelte` `JavaScript` `TailwindCSS` `Python` `MongoDB` `Swift` `iOS` `AWS` `Git`
+
+[Daitoku](https://www.daitoku.ca/)
+
+---
+
 #### Bank of Canada
 
 <dl>
