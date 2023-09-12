@@ -16,7 +16,9 @@ export default {
           secondary: '#E810F1',
           accent: '#EA0C68',
           neutral: '#2A122B',
-          'base-100': '#E9CFF3',
+          'base-100': '#E8D1FF',
+          'base-200': '#F5EBFF',
+          'base-content': '#000000',
           '--rounded-box': '0.5rem',
           '--rounded-btn': '0.5rem'
         }
@@ -27,7 +29,9 @@ export default {
           secondary: '#E810F1',
           accent: '#EA0C68',
           neutral: '#2A122B',
-          'base-100': '#202020',
+          'base-100': '#454545',
+          'base-200': '#202020',
+          'base-content': '#FFFFFF',
           '--rounded-box': '0.5rem',
           '--rounded-btn': '0.5rem'
         }

@@ -13,14 +13,14 @@
   <a
     class:hidden={preview}
     rel="author"
-    class="opacity-75 hover:opacity-100 hover:text-primary duration-500 ease-in-out p-author h-card"
+    class="hover:opacity-100 hover:text-primary duration-500 ease-in-out p-author h-card"
     href={site.protocol + site.domain}>
     {site.author.name}
   </a>
   <span class:hidden={preview} class="opacity-50">/</span>
   <a href={post.path} class="u-url u-uid swap group/time">
     <time
-      class="group-hover/time:opacity-0 font-semibold opacity-75 duration-500 ease-in-out mr-auto dt-published"
+      class="group-hover/time:opacity-0 font-semibold duration-500 ease-in-out mr-auto dt-published"
       datetime={jsonPublished}
       itemprop="datePublished">
       {stringPublished}

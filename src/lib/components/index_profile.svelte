@@ -21,7 +21,7 @@
   </figure>
   <div class="text-center flex flex-col gap-2">
     <h2 class="text-2xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>
-    <p class="opacity-75 p-note">{@html site.author.bio}</p>
+    <p class="p-note">{@html site.author.bio}</p>
     {#if site.author.metadata}
       <div class="flex gap-1 flex-wrap justify-center">
         {#each site.author.metadata as { text, icon, link, rel }}

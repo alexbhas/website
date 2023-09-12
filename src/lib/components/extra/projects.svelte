@@ -29,7 +29,7 @@
               {/each}
             </div>
           </div>
-          <p class="text-left text-base font-normal opacity-70">
+          <p class="text-left text-base font-normal">
             {@html project.description}
           </p>
         </div>

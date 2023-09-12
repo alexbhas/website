@@ -101,7 +101,11 @@
         </p>
       {/if}
     </div>
-    <main itemprop="articleBody" class:mt-4={post.type !== 'article'} class="urara-prose prose e-content">
+    <main
+      itemprop="articleBody"
+      class:mt-4={post.type !== 'article'}
+      class="urara-prose prose e-content"
+      style="--tw-prose-body: hsla(var(--bc));">
       {#if !preview}
         <slot />
       {:else if post.html}
