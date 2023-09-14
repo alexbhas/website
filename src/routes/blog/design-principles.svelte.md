@@ -2,6 +2,7 @@
 title: Reviewing the Design Principles for Computer Security
 created: 2023-09-14T00:00:00
 summary: 'Revewing the design principles found in Computer Security and the Internet: Tools and Jewels from Malware to Bitcoin, Second Edition'
+coverImageUrl: /media/projects/blogposts/blog.jpg
 tags: [cybersecurity]
 ---
 
