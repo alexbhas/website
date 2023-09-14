@@ -1,5 +1,5 @@
 ---
-title: Using Jira as a personal task list
+title: Using Jira as a Personal Task List
 created: 2023-01-23T00:00:00
 summary: I use Jira as a personal task list.
 coverImageUrl: /media/projects/blogposts/jira.webp
