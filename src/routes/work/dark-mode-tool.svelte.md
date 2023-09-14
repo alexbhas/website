@@ -5,7 +5,7 @@ kind: Web app
 summary: A developer tool that allows users to select background/foreground colours that pass contrast ratio requirements.
 coverImageUrl: /media/projects/blogposts/dark-mode.webp
 repo: https://github.com/alexbhas/RTOS-Fitness-Centre
-url: https://alexbhasin.ca/dark-mode-colours-tool/
+url: https://dark-mode-colours-tool-alexbhas.vercel.app/
 ---
 
 ![A screenshot of the Dark Mode Colours Tool](/media/projects/blogposts/dark-mode.webp)
