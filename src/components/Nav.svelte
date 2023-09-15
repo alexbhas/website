@@ -108,6 +108,26 @@
 		}
 	}
 
+	@media (max-width: 768px) {
+		li {
+		/* Reduced margin */
+		&:not(:last-of-type) {
+			margin-right: 0.8em; /* Reduced from 1em */
+		}
+
+		/* Add padding to the last item */
+		&:last-of-type {
+			padding-right: 1em;
+		}
+	}
+
+	.nav-link {
+		/* Reduced padding and font-size */
+		padding: 0.4em 0;
+		font-size: 0.8em; /* Reduced from 0.9em */
+	}
+}
+
 	.nav-link {
 		display: block;
 		padding: 0.5em 0;
