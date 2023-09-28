@@ -32,7 +32,8 @@ export const get: RequestHandler = async ({ url }) => {
 		...worksUrls,
 		createUrlElement("blog"),
 		...blogUrls,
-		createUrlElement("about")
+		createUrlElement("about"),
+		createUrlElement("experience")
 	]
 
 	const xml = html`
