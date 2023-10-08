@@ -28,15 +28,16 @@
 		</div>
 
 		<p>
-			Hello, I'm Alexander! I'm a recent computer science graduate from Carleton University. I'm interested in
-			Accessibility, AI, Full Stack Development, iOS/macOS development, and Cybersecurity.
+			Hello, I'm Alexander! I have 2+ years of diverse experience in software, web, and mobile application development. 
+			I've had the privilege of contributing to both startups and large-scale enterprise projects. 
+			My technical repertoire includes managing cloud native applications, 
+			ensuring high performance of microservices, and enhancing user experience through innovative accessibility features.
 		</p>
 
 		<p>
-			The aspects of computer science that I am mosted interested in are its potential applications.
-			I have seen firsthand the impact that well-designed applications can have on improving the different
-			areas of our lives. A long standing goal of mine is to contribute to projects that are accessible, and
-			revolve around causes that are important to me.
+			I'm always looking towards the intersection of technology and impact. 
+			I'm passionate about contributing to projects that push the boundaries of what's possible in the digital world. 
+			I'm eager to engage in roles that harness my expertise towards new and exciting applications.
 		</p>
 
 		<p>Some of my personal interests include:</p>
