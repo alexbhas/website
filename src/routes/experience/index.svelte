@@ -36,7 +36,7 @@
 	<p>Technologies used: Azure, Docker, Kubernetes, OpsGenie, SearchStax, Grafana, ServiceNow, Prometheus</p>
 	<h3>Daitoku</h3>
 	<dl>
-		<dd>Full Stack Developer</dd>
+		<dd>Integrated Full Stack & Mobile Engineer</dd>
 		<dd>January 2023 - Present</dd>
 	</dl>
 	<br>
