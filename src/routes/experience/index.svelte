@@ -21,32 +21,17 @@
 	</dl>
 	<br>
 	<h2>Work Experience</h2>
-	<h3>Sitecore</h3>
-	<dl>
-		<dd>Associate Cloud Operations Engineer</dd>
-		<dd>July 2023 - Present</dd>
-	</dl>
-	<br>
-	<p>
-		As a member of the Cloud Operations team at Sitecore, 
-		I assisted with the deployment and management of web applications, 
-		diagnosed and mitigated incidents, 
-		and engaged with cross-functional teams to provide support to customers worldwide.
-	</p>
-	<p>Technologies used: Azure, Docker, Kubernetes, OpsGenie, SearchStax, Grafana, ServiceNow, Prometheus</p>
 	<h3>Daitoku</h3>
 	<dl>
-		<dd>Integrated Full Stack & Mobile Engineer</dd>
+		<dd>Full Stack Developer</dd>
 		<dd>January 2023 - Present</dd>
 	</dl>
 	<br>
 	<p>
-		At Daitoku, I aided in the development of comphrensive web applications 
-		ranging from content management systems (CMS) to corporate websites. 
-		I directly interfaced with clients to tailor solutions, 
-		and ensured that all applications were designed with accessibility in mind.
+		At Daitoku, I developed comphrensive web and mobile applications ranging from headless CMS integrations, to more complex applications with robust database systems.
+		I directly interfaced with clients to tailor B2B solutions, as well as worked on exciting in-house B2C applications geared towards the wellness industry. 
 	</p>
-	<p>Technologies used: Svelte, JavaScript/TypeScript, TailwindCSS, Python, MongoDB, Swift, iOS, AWS, Git</p>
+	<p>Technologies used: Svelte, JavaScript/TypeScript, TailwindCSS, Python, MongoDB, PostgresQL, Swift, Kotlin, iOS, Android, AWS, Git</p>
 	<h3>Bank of Canada</h3>
 	<dl>
 		<dd>Web Developer Co-op</dd>
@@ -55,7 +40,7 @@
 	<br>
 	<p>
 		At the bank of Canada, I worked to improve the infrastructure of the fleet of websites that the bank operates. 
-		I worked in an agile development team and completed tasks relating to both front and back-end web development.
+		I worked in an agile development team and completed tasks relating to both front and back-end web development, generally revolving around improving accessbility.
 	</p>
 	<p>Technologies used: PHP, JavaScript, HTML/CSS, WordPress, AmCharts, Gherkin, jQuery, Node.js, MySQL, Jenkins, SVN, Git</p>
 	<h3>Paphus Solutions</h3>
