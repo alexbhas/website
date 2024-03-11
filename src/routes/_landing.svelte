@@ -40,7 +40,7 @@
 		</li>
 		<li>
 			<a
-				href="https://www.linkedin.com/in/alexander-bhasin/"
+				href="https://www.linkedin.com/in/alexbhas/"
 				title="LinkedIn profile"
 				target="_blank"
 				rel="noopener"
