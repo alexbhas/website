@@ -7,6 +7,10 @@ a.chrono-list-entry {
     text-decoration: none;
 }
 
+a {
+    font-weight: bold;
+}
+
 div.chrono-list {
     display: flex;
     justify-content: space-between;
