@@ -2,10 +2,12 @@
 <link rel="stylesheet" href="/preflight.css">
 <link rel="stylesheet" href="/main.css">
 <link rel="stylesheet" href="/posts.css">
+<link rel="stylesheet" href="/donut.css">
 {{ end }}
 
 {{ define "main" }}
 <main>
+    {{ partial "donut.html" . }}
     {{ .Content }}
     <div class="section">
         <h2>all posts</h2>
