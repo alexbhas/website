@@ -1,9 +1,7 @@
 .DS_Store
-node_modules
-/.vercel
-/.svelte
-/.svelte-kit
-/build
-/functions
-/.vercel_build_output
-.vercel
+resources
+public
+.hugo_build.lock
+.obsidian
+template.md
+content/log/log_images

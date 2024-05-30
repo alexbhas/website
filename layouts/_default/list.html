@@ -1,0 +1,8 @@
+{{ define "main" }}
+<main>
+    {{ .Content }}
+    <ul class="contents">
+        {{ partial "recent_posts.html" . }}
+    </ul>
+</main>
+{{ end }}

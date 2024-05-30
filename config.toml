@@ -1,0 +1,48 @@
+baseURL = 'https://alexbhasin.ca'
+languageCode = 'en-us'
+title = 'Alexander Bhasin'
+disableKinds = ["taxonomy", "term"]
+
+[menu]
+[[menu.main]]
+  identifier = 'home'
+  name = 'home'
+  title = 'Alexander Bhasin | home'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  identifier = 'experience'
+  name = 'experience'
+  title = 'Alexander Bhasin | experience'
+  url = '/log/experience/'
+  weight = 20
+[[menu.main]]
+  identifier = 'posts'
+  name = 'projects'
+  title = 'Alexander Bhasin | projects'
+  url = '/posts/'
+  weight = 30
+[[menu.main]]
+identifier = 'log'
+name = 'posts'
+title = 'Alexander Bhasin | posts'
+url = '/log/'
+weight = 40
+  
+[[menu.socials]]
+  name = 'github'
+  url = 'https://github.com/alexbhas'
+  weight = 10
+[[menu.socials]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/alexbhas/'
+  weight = 20
+
+
+[params]
+  description = 'Software Developer'
+  images = ['favicon.png']
+  title = 'Alexander Bhasin'
+
+[outputs]
+  home = ['html']

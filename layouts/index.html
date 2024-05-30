@@ -1,0 +1,78 @@
+{{ define "styles" }}
+<link rel="stylesheet" href="/preflight.css">
+<link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="/home.css">
+<style>
+    .donut-wrapper {
+
+        .donut-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+        background-color: black;
+        }
+
+        .donut-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: rgb(49, 49, 49);
+            user-select: none;
+        }
+
+        .donut-center {
+            font-size: 32px;
+        }
+    }
+    
+</style>
+{{ end }}
+
+{{ define "seo" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}one_life.png" />
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "{{ .Site.BaseURL }}embed.png",
+    "creditText": "Alexander Bhasin",
+    "creator": {
+        "@type": "Organization",
+        "name": "Alexander Bhasin"
+    },
+    "copyrightNotice": "Alexander Bhasin"
+}
+</script>
+{{ end }}
+
+{{ define "header" }}
+<header class="section">
+    {{ partial "navigation.html" . }}
+    <div id="hero" class="section">
+        <h1>{{ .Params.title }}</h1>
+        <p>{{ .Site.Params.description }}</p>
+    </div>
+</header>
+{{ end }}
+
+{{ define "main" }}
+<main aria-role="main">
+    {{ partial "donut.html" . }}
+    <div class="content-container">
+        {{ .Content }}
+        {{ partial "recent_posts.html" . }}
+        <footer id="site-footer" class="section">
+        {{ range .Site.Menus.socials }}
+            <a href="{{ .URL }}" title="{{ .Title }}">
+            {{- .Name -}}
+            </a>
+        {{ end }}
+        </footer>
+    </div>
+</main>
+{{ end }}
