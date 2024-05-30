@@ -13,7 +13,7 @@ date: 2024-01-01
 
 Bachelor of Computer Science, Honours\
 Computer and Internet Security Stream\
-High Distinction, 3.9/4 GPA (11.43/12.00)\
+High Distinction, 3.9 / 4 GPA (11.43 / 12.00)\
 September 2018 - April 2023
 
 ## Work Experience
