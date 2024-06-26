@@ -7,7 +7,7 @@
 
 {{ define "main" }}
 <main>
-    {{ partial "donut.html" . }}
+    
     {{ .Content }}
     <div class="section">
         <h2>all projects</h2>
@@ -25,5 +25,14 @@
         {{ end }}
         </ul>
     </div>
+    <footer id="site-footer" class="section">
+        {{ range .Site.Menus.socials }}
+            <a href="{{ .URL }}" title="{{ .Title }}">
+            {{- .Name -}}
+            </a>
+        {{ end }}
+        </footer>
+    {{ partial "donut.html" . }}
+    
 </main>
 {{ end }}

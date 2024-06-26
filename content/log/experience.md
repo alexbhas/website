@@ -7,18 +7,18 @@ description: |
 date: 2024-01-01
 ---
 
-## Education  
+## **Education**  
 
-# Carleton University
+# **Carleton University**
 
 Bachelor of Computer Science, Honours\
 Computer and Internet Security Stream\
 High Distinction, 3.9 / 4 GPA (11.43 / 12.00)\
 September 2018 - April 2023
 
-## Work Experience
+## **Work Experience**
 
-# Daitoku
+# **Daitoku**
 
 Full Stack Developer\
 January 2023 - Present
@@ -27,7 +27,7 @@ At Daitoku, I've developed comprehensive web and mobile applications ranging fro
 
 Technologies used: Svelte, JavaScript/TypeScript, TailwindCSS, Python, MongoDB, PostgresQL, Swift, Kotlin, iOS, Android, AWS, Git
 
-# Bank of Canada
+# **Bank of Canada**
 Web Developer Co-op\
 September 2022 - December 2022
 
@@ -35,7 +35,7 @@ At the bank of Canada, I worked to improve the infrastructure of the fleet of we
 
 Technologies used: PHP, JavaScript, HTML/CSS, WordPress, AmCharts, Gherkin, jQuery, Node.js, MySQL, Jenkins, SVN, Git
 
-# Paphus Solutions
+# **Paphus Solutions**
 Software Developer Co-op\
 September 2020 - December 2020
 
