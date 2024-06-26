@@ -34,7 +34,6 @@
 
 {{ define "main" }}
 <main aria-role="main">
-    {{ partial "donut.html" . }}
     <div class="content-container">
         {{ .Content }}
         {{ partial "recent_posts.html" . }}
@@ -45,6 +44,7 @@
             </a>
         {{ end }}
         </footer>
+        {{ partial "donut.html" . }}
     </div>
 </main>
 {{ end }}

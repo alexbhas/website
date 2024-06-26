@@ -11,23 +11,23 @@ disableKinds = ["taxonomy", "term"]
   url = '/'
   weight = 10
 [[menu.main]]
-  identifier = 'experience'
-  name = 'experience'
-  title = 'Alexander Bhasin | experience'
-  url = '/log/experience/'
-  weight = 20
-[[menu.main]]
   identifier = 'posts'
   name = 'projects'
   title = 'Alexander Bhasin | projects'
   url = '/posts/'
-  weight = 30
+  weight = 20
 [[menu.main]]
 identifier = 'log'
 name = 'posts'
 title = 'Alexander Bhasin | posts'
 url = '/log/'
-weight = 40
+weight = 30
+[[menu.main]]
+  identifier = 'experience'
+  name = 'experience'
+  title = 'Alexander Bhasin | experience'
+  url = '/log/experience/'
+  weight = 40
   
 [[menu.socials]]
   name = 'github'

@@ -23,7 +23,7 @@ September 2018 - April 2023
 Full Stack Developer\
 January 2023 - Present
 
-At Daitoku, I've developed comprehensive web and mobile applications ranging from headless CMS integrations, to complex applications with robust database systems. I directly interfaced with clients to tailor B2B solutions, as wel las worked on exciting in-house B2C applications geared towards the wellness industry.
+At Daitoku, I've developed comprehensive web and mobile applications ranging from headless CMS integrations, to complex applications with robust database systems. I directly interfaced with clients to tailor B2B solutions, as well as worked on exciting in-house B2C applications geared towards the wellness industry.
 
 Technologies used: Svelte, JavaScript/TypeScript, TailwindCSS, Python, MongoDB, PostgresQL, Swift, Kotlin, iOS, Android, AWS, Git
 

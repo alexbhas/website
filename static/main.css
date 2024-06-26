@@ -1,8 +1,8 @@
 :root {
-    --bg-color: #000000;
+    --bg-color: #0f0f0f;
     --text-color: #ffffff;
     --link-color: #ff006a;
-    --gray-accent-color: #38383877;
+    --gray-accent-color: #5e5e5e77;
 }
 
 body {
