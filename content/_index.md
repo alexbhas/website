@@ -6,7 +6,7 @@ title: Alexander Bhasin
 ---
 I'm a software developer from Ottawa, Canada.
 
-My interests are: AI, iOS Development, Full Stack Web Development, and Cyber/Systems Security.
+My interests are: AI/ML, iOS Development, Full Stack Web Development, and Cyber/Systems Security.
 
 You can find me on **[Github](https://github.com/alexbhas)** or **[LinkedIn](https://www.linkedin.com/in/alexbhas/)**
 

@@ -3,7 +3,7 @@ title: Experience
 summary: |
     I've worked at Daitoku, the Bank of Canada, and Paphus Solutions.
 description: |
-    My working experience thus far.
+    My working experience thus far
 date: 2024-01-01
 ---
 

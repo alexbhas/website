@@ -1,9 +1,9 @@
 ---
-title: Reviewing Computer Security Design Principles
+title: Computer Security Design Principles
 summary: |
     Revewing the design principles found in Computer Security and the Internet: Tools and Jewels from Malware to Bitcoin, Second Edition
 description: |
-    Revewing the design principles found in Computer Security and the Internet: Tools and Jewels from Malware to Bitcoin, Second Edition
+    Reviewing security design principles
 date: 2024-01-01
 ---
 

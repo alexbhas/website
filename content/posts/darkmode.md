@@ -16,4 +16,4 @@ Implementing this took quite some thought. The first thing that needs to be done
 
 With the values the user entered converted, we then iterate over all of the RGB values, skipping over many values since there are over 16 million possible colours. This does not hinder the results that much in my opinion, as for example if there were thousands of shades of blue that would pass the contrast check, many of them would be indistinguishably different from eachother, and so they could be easily represented by less shades.
 
-[Github Repository](https://github.com/alexbhas/RTOS-Fitness-Centre)
+[Github Repository](https://github.com/alexbhas/dark-mode-colours-tool)
