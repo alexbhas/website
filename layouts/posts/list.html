@@ -10,7 +10,7 @@
     
     {{ .Content }}
     <div class="section">
-        <h2>all projects</h2>
+        <h2>all posts</h2>
         <ul class="contents">
         {{ range sort (where .Paginator.Pages "Section" "posts") ".Date" "desc" }}
             <li class="list-item">
