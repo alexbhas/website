@@ -12,7 +12,7 @@
     <div class="section">
         <h2>all posts</h2>
         <ul class="contents">
-        {{ range sort (where .Paginator.Pages "Section" "posts") ".Date" "desc" }}
+        {{ range sort (where (where .Paginator.Pages "Section" "posts") ".Params.hidden" "ne" true) ".Date" "desc" }}
             <li class="list-item">
                 <a class="chrono-list-entry" href="{{ .Permalink }}">
                     <div class="chrono-list">

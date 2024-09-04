@@ -26,7 +26,7 @@
 <header class="section">
     {{ partial "navigation.html" . }}
     <div id="hero" class="section">
-        <h1>{{ .Params.title }}</h1>
+        <h1><a class="hidden" href="/posts/images">{{ .Params.title }}</a></h1>
         <p>{{ .Site.Params.description }}</p>
     </div>
 </header>

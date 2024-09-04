@@ -2,7 +2,7 @@
     <h2>recent posts</h2>
     <hr>
     <ul class="contents">
-    {{ range where .Paginator.Pages "Section" "posts" | first 10 }}
+    {{ range where (where .Paginator.Pages "Section" "posts") ".Params.hidden" "ne" true | first 10 }}
         <li class="list-item">
             <a class="chrono-list-entry" href="{{ .Permalink }}">
                 <div class="chrono-list">

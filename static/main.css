@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #3e4ccc;
+    --bg-color: #230ab1;
     --text-color: #ffffff;
     --link-color: #09ff00;
     --gray-accent-color: #00000077;
@@ -31,7 +31,7 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-a {
+a:not(.hidden){
     text-decoration: underline;
     color: var(--link-color);
 }
