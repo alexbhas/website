@@ -16,6 +16,12 @@ disableKinds = ["taxonomy", "term"]
   title = 'Alexander Bhasin | posts'
   url = '/posts/'
   weight = 20
+[[menu.main]]
+  identifier = 'resume'
+  name = 'resume'
+  title = 'Alexander Bhasin | resume'
+  url = '/assets/resume.pdf'
+  weight = 30
   
 [[menu.socials]]
   name = 'github'
