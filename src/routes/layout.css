@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-serif: 'Instrument Serif', serif;
+	--font-sans: 'Inter', sans-serif;
+	--font-mono: 'JetBrains Mono', monospace;
+
+	--color-cream:rgb(229, 229, 229);
+	--color-dark: #2a2a2a;
+	--color-accent:rgb(117, 50, 219);
+	--color-accent-hover:rgb(147, 94, 225);
+	--color-border: #2a2a2a;
+	--color-muted:rgb(0, 0, 0);
+}
+
+html {
+	font-family: var(--font-sans);
+	background-color: var(--color-cream);
+	color: var(--color-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-serif);
+}
+
+.font-serif {
+	font-family: var(--font-serif);
+}
+
+.font-mono {
+	font-family: var(--font-mono);
+}
+
+/* Tactical border style with corner brackets */
+.tactical-border {
+	border: 1px solid var(--color-dark);
+	position: relative;
+}
+
+.tactical-border::before,
+.tactical-border::after {
+	content: '';
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border: 1px solid var(--color-dark);
+}
+
+.tactical-border::before {
+	top: -4px;
+	left: -4px;
+	border-right: none;
+	border-bottom: none;
+}
+
+.tactical-border::after {
+	bottom: -4px;
+	right: -4px;
+	border-left: none;
+	border-top: none;
+}

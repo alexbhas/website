@@ -1,0 +1,20 @@
+---
+title: About this website
+description: A look at the design/stack behind this website
+date: '2025-12-10'
+tags:
+  - svelte
+  - design
+  - web
+published: true
+---
+
+# Building This Site
+
+This website was built with a somewhat technical but formal aesthetic in mind, making use of fonts like Instrument Serif and monospace fonts. 
+## Stack
+
+- **SvelteKit** — I use this for all my front end projects these days, I find it to be very efficient and the easiest to develop in
+- **TailwindCSS** — Makes the styling process much easier, I was initially not a fan of it but it has grown on me quite a lot and I vastly prefer it to regular CSS
+- **mdsvex** — Allows these blog posts to be markdown files that are rendered in Svelte
+

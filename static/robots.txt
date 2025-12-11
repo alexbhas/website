@@ -1,1 +1,3 @@
-Sitemap: https://alexbhasin.ca/sitemap.xml
+# allow crawling everything by default
+User-agent: *
+Disallow:
