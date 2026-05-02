@@ -1,0 +1,101 @@
+---
+title: Ariasave
+description: A look into an app I designed and built
+date: '2026-05-02'
+tags:
+  - iOS
+  - design
+published: true
+---
+
+# The Ariasave App
+
+For the past little while I had been working on an app idea that I had, which would allow users to pair songs to photos. I was out for a walk one day while listening to music
+and saw some beautiful scenery. I took a photo of it and thought, it would be cool if I could remember the song I was listening to when I took this photo.
+
+So I set out to build the app in question, and built it in it's entirety. However I did not yet know that this is an app that cannot be released publicly due to
+issues with both Spotify and Apple Music.
+
+<img
+  src="/logo.png"
+  alt="Ariasave Logo"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+
+## Stack
+
+- **Swift/SwiftUI** — The entire app was built in Swift using SwiftUI. This app does not have a backend, since it only needed to interface with Music APIs and all photos were
+stored on device locally as well as with CloudKit.
+
+I decided on the photo part of the app being stamp based, making it so that users would have a cut out of the moment, inspired by a photo stamping app I had seen before.
+
+The inital plan for music was to allow users to connect either their Spotify or Apple Music accounts for searching functionality, as well as being able to show the user their most recent playback.
+
+Both were implemented and functioned perfectly, with the user being able to take a photo, stamp it, and then pair that photo with a song. This would then be saved in the gallery where users could go
+to view their entries, which displayed the stamp, as well as the song with its details and album art. 
+
+The cool feature I was most excited about developing were the art cards. Users could customize a card with the stamp and song information on it, by changing the background style, having colours that were based on the album art or photo, 
+and customize the text. This allowed for a lot of variation in customization and the idea was that users would share these cards on social media.
+
+From a design perspective, I wanted the app to feel clean and sleek, I chose fonts I felt best represented this, as well as added a background throughout the app resembling a vinyl disc. 
+
+Unfortunately, the first huge change I had to make was removing Spotify from the app entirely. I found out that Spotify no longer allows solo developers or anyone who is not operating a service with under 250,000 monthly active users to make
+use of their development platform in a production capacity. 
+
+Then when finalizing the app, I looked into the requirements around the use of MusicKit and found out that Apple does not allow the use of details pertaining to a song (album art and related song text) to be downloaded in any manner, which meant
+I could no longer have the card saving mode, but then also they do not allow it to be used outside of the context of playback or playlists, which my app was doing since it was more akin to a log or song journal of sorts.
+
+So, the end result is a fully featured app that nobody will ever get to really use. I am proud of the effort I put into it and the overall design.
+
+App screenshots below:
+
+<img
+  src="/image1.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+<br>
+<img
+  src="/image2.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+<br>
+<img
+  src="/image3.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+<br>
+<img
+  src="/image4.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+<br>
+<img
+  src="/image5.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+<br>
+<img
+  src="/image6.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+<br>
+<img
+  src="/image7.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+<br>
+<img
+  src="/image8.png"
+  alt="Ariasave"
+  style="width: 400px; height: auto; display: block; margin-left: auto; margin-right: auto;"
+/>
+
+
+
